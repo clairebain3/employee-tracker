@@ -187,36 +187,11 @@ FROM employee E`, (err,rows) => {
 
         })
     })
-        // {type: 'input',
-        //     name: 'last',
-        //     message: 'Please enter the employee last name'
-        // },
-        // {type: 'input',
-        //     name: 'role',
-        //     message: 'Please enter the employee role id'
-        // },
-        // {type: 'input',
-        //     name: 'manager',
-        //     message: 'Please enter the employee manager id'
-        // }
-        // ]
-        
-        // ).then((answers)=> {
 
-
-        // db.execute('INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES (?, ?, ?, ?)', 
-        // [answers.first, answers.last, answers.role, answers.manager],
-        // (err,rows) => {
-          
-        //     if(err) throw err;
-        //     console.log("added employee")
-        // })
-        // })
 
     }
 
-    //     fs.writeFile('./utils/README.md', generateMarkdown(answers), (err) =>
-    //     err ? console.error(err) : console.log('Commit logged!')
+
     
 })
 }
